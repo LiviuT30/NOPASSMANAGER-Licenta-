@@ -1,0 +1,63 @@
+/* styles.qss */
+QWidget {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton#helpButton {
+    background-color: #008CBA;
+}
+
+QPushButton#helpButton:hover {
+    background-color: #007BB5;
+}
+
+/* QLabel Styling */
+QLabel {
+    color: #333;  /* Dark text color for labels */
+    font-size: 14px;  /* Font size for labels */
+    margin-bottom: 8px;  /* Space below labels */
+}
+
+/* QLineEdit Styling */
+QLineEdit {
+    background-color: white;
+    border: 2px solid #ccc;  /* Light gray border */
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    color: #333;  /* Dark text color */
+    margin-bottom: 16px;  /* Space below text inputs */
+}
+
+QLineEdit:focus {
+    border-color: #4CAF50;  /* Change border color when focused */
+}
+
+QTextEdit {
+    border: none;
+    background-color: #76c043; /* Match the green color */
+    padding: 5px;
+    color: black; /* Text color for better contrast */
+    font-weight: bold;
+    font-size: 12px;
+}
+QCheckBox {
+    align:right;
+}
